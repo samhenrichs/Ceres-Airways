@@ -5,10 +5,32 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
 <%= yield %>
+<nav class="nav">
+<div class="dropdown">
+<div class="sandwhich">
+  <div href="#" class="dropdown-toggle sandwich-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+  <div class="first-line line"></div>
+  <div class="second-line line"></div>
+  <div class="third-line line"></div>
+  </div>
 
+  <ul class="dropdown-menu" id="dropdown-body">
+    <li><a href="/links">Home</a></li>
+    <li><a href="/pages/how">About</a></li>
+    <li><a href="/pages/contact">Contact Us</a></li>
+  </ul>
+
+</div>
+</div>
+
+<div class="brand-con">
+<div class="brand"><span class="brand-text">Ceres Airways</span></div>
+</div>
+</nav>
 </body>
 </html>
