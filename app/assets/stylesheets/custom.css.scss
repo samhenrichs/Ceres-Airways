@@ -1096,7 +1096,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #3e3f3a;
-  background-color: #f6f6f6;
+  background-color: #ffffff;
 }
 input,
 button,
@@ -6994,7 +6994,7 @@ input:focus,
 .brand {
   text-align: center;
   line-height: 60px;
-  font-size: 25px;
+  font-size: 30px;
   z-index: 50;
 }
 .brand-text {
@@ -7093,4 +7093,13 @@ input:focus,
 }
 .underline {
   text-decoration: underline;
+}
+a {
+  color: #5da0d2;
+}
+a:hover {
+  color: #5da0d2;
+}
+p {
+  font-size: 115%;
 }
