@@ -1,0 +1,21 @@
+<html>
+  <head>
+
+  </head>
+  <body>
+    <div class="container">
+    <div class="space"></div>
+    <h1 class="blue light">Want to help?</h1>
+    <p>There are lots of way that you can help support us. The best way is to donate to us on our <a href="https://www.gofundme.com/2593mvw
+    ">Go Fund Me. If you do, we'll consider letting you come with us. Maybe we could kick Bill Nye out.</a></p>
+    <p>Another way to help us is to sign up for our monthly news letter. This will give you some updates, including building progress and some accounts from some of the poeple working on the project. You can sign up below.</p>
+
+    <%= form_for @page do |f| %>
+      <%= f.label :"Your Email", class: "blue light" %>
+      <%= f.text_field :email, class: "form-control" %>
+      <%= f.submit :"Sign Up", class: "btn-success" %>
+    <% end %>
+
+    </div>
+  </body>
+</html>

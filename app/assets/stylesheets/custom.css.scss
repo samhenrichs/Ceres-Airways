@@ -3548,7 +3548,8 @@ tbody.collapse.in {
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
+  font-weight: lighter;
 }
 .dropdown-menu.pull-right {
   right: 0;
@@ -3564,7 +3565,7 @@ tbody.collapse.in {
   display: block;
   padding: 3px 20px;
   clear: both;
-  font-weight: 300;
+  font-weight: lighter;
   line-height: 1.42857143;
   color: #98978b;
   white-space: nowrap;
@@ -3574,7 +3575,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #5da0d2;
+  color: #7a4481;
   background-color: transparent;
 }
 .dropdown-menu > .active > a,
@@ -6938,7 +6939,7 @@ input:focus,
   margin-top: 100px;
 }
 .blue {
-  color: #5da0d2;
+  color: #7a4481;
 }
 .lighter {
   font-weight: 500;
@@ -6987,7 +6988,7 @@ input:focus,
   background-color: #a9a9a9;
 }
 .sandwich-hover:hover .line {
-  background-color: #5da0d2;
+  background-color: #7a4481;
 }
 .brand-con {
   width: 50%;
@@ -7000,9 +7001,10 @@ input:focus,
   z-index: 50;
 }
 .brand-text {
-  font-weight: 300;
+  font-weight: lighter;
   text-transform: none;
-  color: #5da0d2;
+  color: #7a4481;
+  font-size: 125%;
 }
 .force {
   font-weight: 300;
@@ -7028,18 +7030,18 @@ input:focus,
 }
 .boxes {
   background-color: white;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #7a4481;
   padding: 25px;
   margin-top: 25px;
 }
 .link-title {
   text-align: left;
-  color: #418fca;
+  color: #7a4481;
   font-size: 125%;
 }
 .link-title:hover {
   text-decoration: underline;
-  color: #5da0d2;
+  color: #7a4481;
 }
 .links-image {
   width: 25vw;
@@ -7062,7 +7064,7 @@ input:focus,
 }
 .image-title-con {
   text-align: center;
-  color: #5da0d2;
+  color: #7a4481;
 }
 .show-body {
   margin-top: 25px;
@@ -7077,12 +7079,12 @@ input:focus,
 }
 .link-whole {
   background-color: white;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #7a4481;
   padding: 25px;
   margin-top: 25px;
 }
 .url {
-  color: #5da0d2;
+  color: #7a4481;
 }
 .lets {
 
@@ -7097,14 +7099,17 @@ input:focus,
   text-decoration: underline;
 }
 a {
-  color: #5da0d2;
+  color: #7a4481;
 }
 a:hover {
-  color: #5da0d2;
+  color: #7a4481;
 }
 p {
   font-size: 115%;
 }
 ul {
   font-size: 115%;
+}
+.light {
+  font-weight: lighter;
 }
