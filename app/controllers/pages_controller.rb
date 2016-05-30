@@ -1,10 +1,30 @@
 class PagesController < ApplicationController
 
-  def about
+  def new
     @page = Page.new
   end
 
   def show
+    @page = Page.find(params[:id])
+
+    redirect_to "/pages"
+  end
+
+  def create
+    @page = Page.new(page_params)
+
+    if @page.save
+      redirect_to @page
+    else
+      render 'new'
+    end
+
+  end
+
+  private
+
+  def page_params
+    params.require(:page).permit(:email)
   end
 
 end
