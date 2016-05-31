@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   get 'home/home'
 
+  get 'home/journal'
+
   resources :pages
 
 end
