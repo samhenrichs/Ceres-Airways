@@ -6,8 +6,6 @@ class PagesController < ApplicationController
 
   def show
     @page = Page.find(params[:id])
-
-    redirect_to "/home/home"
   end
 
   def create
